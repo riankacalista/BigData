@@ -1,0 +1,16 @@
+product_id,product_name,category,price,stock
+1,Laptop ASUS VivoBook,Elektronik,8500000,15
+2,Smartphone Samsung A54,Elektronik,4200000,30
+3,Headphone Sony WH-1000XM5,Elektronik,3800000,20
+4,Kaos Polos Cotton,Pakaian,75000,100
+5,Jaket Hoodie Fleece,Pakaian,250000,50
+6,Celana Jeans Slim,Pakaian,180000,75
+7,Kopi Arabika 200g,Makanan,45000,200
+8,Teh Hijau Premium,Makanan,35000,150
+9,Mie Instan Goreng,Makanan,3500,500
+10,Panci Presto 5L,Peralatan Rumah,320000,25
+11,Blender Philips 600W,Peralatan Rumah,450000,20
+12,Sepatu Lari Nike,Olahraga,850000,40
+13,Bola Futsal Mikasa,Olahraga,185000,35
+14,Mouse Wireless Logitech,Elektronik,380000,60
+15,Keyboard Mechanical Rexus,Elektronik,620000,30
