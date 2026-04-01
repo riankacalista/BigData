@@ -106,10 +106,3 @@ Jika terjadi error koneksi, restart container dengan:
 ```bash
 docker compose down -v
 docker compose up -d
-
-Cara Menjalankan Project1. Install DependencyJalankan perintah berikut di terminal:Bashpip install pandas sqlalchemy psycopg2-binary openpyxl minio jupyter
-2. Jalankan DockerBashdocker compose up -d
-Cek status container:Bashdocker ps
-3. Jalankan Jupyter NotebookBashjupyter notebook
-4. Jalankan Script IngestionJalankan file .ipynb.Script akan mengambil data dari PostgreSQL, membaca file CSV & XLSX, dan upload ke MinIO.5. Akses MinIOBuka di browser: http://localhost:9001Username: minioadminPassword: minioadmin123DatasetDataset yang digunakan dalam proyek ini merupakan dataset dummy yang disediakan sebagai bagian dari perintah minilab, terdiri dari:Customerscustomer_idnamakotaumurtanggal registrasiProductsnama produkkategorihargastokOrdersRelasi customer dan produkjumlah pembeliantanggal transaksiDataset ini dirancang untuk mendukung:Clustering (segmentasi pelanggan)KlasifikasiAssociation Rules (analisis pembelian)File Dataset TambahanFileKeteranganproducts.csvData produkorders_source.xlsxData transaksiCatatan: Folder venv/ dan .ipynb_checkpoints/ tidak diupload karena merupakan file sistem.Error dalam KoneksiJika terjadi error koneksi, restart container dengan:Bashdocker compose down -v
-docker compose up -d
