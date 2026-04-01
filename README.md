@@ -40,6 +40,8 @@ raw/
 ## Cara Menjalankan Project
 
 ### 1. Install dependency
+Jalankan perintah berikut di terminal:
+
 ```bash
 pip install pandas sqlalchemy psycopg2-binary openpyxl minio jupyter
 
