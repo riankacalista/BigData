@@ -37,7 +37,7 @@ raw/
 
 ---
 
-## Cara Menjalankan Project
+```## Cara Menjalankan Project```
 
 ### 1. Install dependency
 Jalankan perintah berikut di terminal:
