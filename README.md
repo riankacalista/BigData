@@ -29,6 +29,7 @@ Pipeline ini melakukan proses:
 ---
 
 ## Struktur Data di MinIO
+```bash
 raw/
 ├── rdbms/
 ├── csv/
@@ -42,18 +43,18 @@ raw/
 ```bash
 pip install pandas sqlalchemy psycopg2-binary openpyxl minio jupyter
 
-**### 2. Jalankan Docker**
+### 2. Jalankan Docker
 ```bash
 docker compose up -d
 
 ```bash
 docker ps
 
-**### 3. Jalankan Jupyter Notebook**
+### 3. Jalankan Jupyter Notebook
 ```bash
 jupyter notebook
 
-**### 4. Jalankan Script Ingestion**
+### 4. Jalankan Script Ingestion
 - Jalankan file .ipynb
 - Script akan mengambil data dari PostgreSQL, membaca file CSV & XLSX, dan upload ke MinIO
 
@@ -63,7 +64,7 @@ jupyter notebook
 
 ---
 
-**## Dataset**
+## Dataset
 Dataset yang digunakan dalam proyek ini merupakan dataset dummy yang disediakan sebagai bagian dari perintah minilab, terdiri dari:
 1. Customers
    customer_id
@@ -88,7 +89,7 @@ Dataset ini dirancang untuk mendukung:
 
 ---
 
-**## File Dataset Tambahan**
+## File Dataset Tambahan
 
 | File        | Keterangan |
 |-------------|--------|
