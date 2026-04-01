@@ -1,0 +1,25 @@
+Microsoft Windows [Version 10.0.26200.8037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HP>mkdir minilab-bigdata
+A subdirectory or file minilab-bigdata already exists.
+
+C:\Users\HP>cd minilab-bigdata
+
+C:\Users\HP\minilab-bigdata>docker-compose down -v
+[+] Running 5/5
+ ✔ Container minilab-postgres            Removed                                                                   0.9s
+ ✔ Container minilab-minio               Removed                                                                   1.0s
+ ✔ Volume minilab-bigdata_minio_data     Removed                                                                   0.0s
+ ✔ Volume minilab-bigdata_postgres_data  Removed                                                                   0.1s
+ ✔ Network minilab-bigdata_default       Removed                                                                   0.4s
+
+C:\Users\HP\minilab-bigdata>docker-compose up -d
+[+] Running 5/5
+ ✔ Network minilab-bigdata_default         Created                                                                 0.1s
+ ✔ Volume "minilab-bigdata_minio_data"     Created                                                                 0.0s
+ ✔ Volume "minilab-bigdata_postgres_data"  Created                                                                 0.0s
+ ✔ Container minilab-postgres              Started                                                                 0.8s
+ ✔ Container minilab-minio                 Started                                                                 0.8s
+
+C:\Users\HP\minilab-bigdata>
